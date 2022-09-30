@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password generator</title>
+
+    <style>
+      main {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        background-color: antiquewhite;
+        font-family: cursive;
+        color: brown;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      input {
+        padding: 0.3rem;
+        margin: 1rem;
+        width: 50%;
+        font-size: 1rem;
+        margin: auto;
+        text-align: center;
+      }
+
+      button {
+        background-color: bisque;
+        border: 1px solid brown;
+        padding: 1rem;
+        margin: 1rem;
+        margin: auto;
+      }
+      section {
+        margin: 1rem auto;
+        display: flex;
+        gap: 2rem;
+      }
+
+      #option {
+        border-radius: 50%;
+        width: 30%;
+      }
+
+      fieldset {
+        width: 50%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Generate a new password</h1>
+
+      <input
+        type="text"
+        placeholder="Here is your newly generated password"
+        id="password"
+      />
+      <section>
+        <input
+          type="text"
+          name="letters"
+          id="count"
+          placeholder="Enter the Password Length"
+        />
+        <fieldset>
+          <legend>Choose your password type:</legend>
+
+          <div>
+            <input type="checkbox" id="yes" checked />
+            <label for="yes" id="mixed">Mixed</label>
+          </div>
+        </fieldset>
+      </section>
+
+      <button id="generate" type="submit">Generate Password</button>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
