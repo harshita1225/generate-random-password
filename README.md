@@ -4,19 +4,19 @@ Description:
 
 - This app generates passwords.
 
-- There should be a Generate Password button which the user can click to show a new password using all letters and different characters. 
+- There is a Generate Password button which the user can click to show a new password using all letters and different characters.
 
 - By default, the password generated should use mixed cases (both lowercase and uppercase).
 
-Create a password generator WebApp with the following instructions:
+Created password generator WebApp with the following instructions:
 
 1. Use the constant "charset" in your function (move it there). It contains all characters to use.
 
 ```javascript
-const charset = 'abcdefghijklmnopqrstuvwxyz0123456789!§$%&/()=?#,;.:-_';
+const charset = "abcdefghijklmnopqrstuvwxyz0123456789!§$%&/()=?#,;.:-_";
 ```
 
-2. Your function should have 2 arguments:
+2. function should have 2 arguments:
 
    - length (Number) The length of the password
    - mixedCase (Boolean) Whether or not to use mixed cases (lowercase + uppercase)
@@ -29,15 +29,19 @@ const charset = 'abcdefghijklmnopqrstuvwxyz0123456789!§$%&/()=?#,;.:-_';
 
 Examples for generated passwords: - 876FocMkcCv98teXc(Ov - %lfXcrLt-#ke3r6R5§-? - Nd1Z\$yRx
 
-Bonus version: 
-1. Add an input field to define the length of the password. 
+## challenges
 
-2. Add a checkbox to define if the password should use mixed cases. 
+1. Add an input field to define the length of the password.
+
+2. Add a checkbox to define if the password should use mixed cases.
 
 3. Generate a new password on change of the input elements.
 
-4. **Optional:** Free free to use Bootstrap for styling.
+## screenshot
 
-> Hint: Refer to the representation below, for an idea of what your result should look like.
+- header
+  ![Desktop Layout](./img/Screenshot%202022-10-16%20at%2019-25-45%20Natours%20Exciting%20tours%20for%20adventurous%20people.png)
 
-![demo](demo.gif)
+## Author
+
+- Website - [Harshita Joshi-Github](https://github.com/harshita1225)
