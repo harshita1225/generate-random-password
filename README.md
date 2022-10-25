@@ -1,6 +1,10 @@
 # Password Generator
 
-Description:
+## Link
+
+- Live Site URL: [https://harshita1225.github.io/generate-random-password/](https://harshita1225.github.io/generate-random-password/)
+
+## Description:
 
 - This app generates passwords.
 
@@ -39,8 +43,11 @@ Examples for generated passwords: - 876FocMkcCv98teXc(Ov - %lfXcrLt-#ke3r6R5§-?
 
 ## screenshot
 
-- header
-  ![Desktop Layout](./img/Screenshot%202022-10-16%20at%2019-25-45%20Natours%20Exciting%20tours%20for%20adventurous%20people.png)
+- password mixed
+  ![Demo with mixed char](./Screenshot%20from%202022-10-25%2022-34-33.png)
+
+  - password non mixed type
+    ![Demo without mixed char](./Screenshot%20from%202022-10-25%2022-36-20.png)
 
 ## Author
 
